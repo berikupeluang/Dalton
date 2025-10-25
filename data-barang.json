@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cmh680szd0000ro1l6sxtjpb6",
+    "no": 1,
+    "namaBarang": "Spring",
+    "kod": "13456",
+    "harga": 12,
+    "bilangan": 1,
+    "jumlah": 12,
+    "lori": "ST 9483 P",
+    "kedai": "SUN",
+    "bayaran": "TUNAI",
+    "tentang": null,
+    "gambar": "[\"blob:https://preview-chat-aefcef92-44cd-4db8-bdbf-b2288bbcb5f1.space.z.ai/1390ee1e-06bd-47a5-9898-96448523bbe0\",\"blob:https://preview-chat-aefcef92-44cd-4db8-bdbf-b2288bbcb5f1.space.z.ai/f9f06f6e-36b5-4ade-b0fc-f4a6b29daddb\"]",
+    "createdAt": "2025-10-25T11:53:01.370Z",
+    "updatedAt": "2025-10-25T12:10:55.263Z"
+  }
+]

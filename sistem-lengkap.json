@@ -1,0 +1,76 @@
+{
+  "exportInfo": {
+    "timestamp": "2025-10-25T13:49:18.596Z",
+    "system": "SISTEM PENGURUSAN STOK",
+    "version": "1.0",
+    "description": "Sistem Pengurusan Stok Barang dan Kedai",
+    "framework": "Next.js 15 dengan TypeScript",
+    "database": "SQLite dengan Prisma ORM",
+    "ui": "Tailwind CSS + shadcn/ui",
+    "totalRecords": {
+      "barang": 1,
+      "barangMasuk": 1,
+      "barangKeluar": 1,
+      "kedai": 1
+    }
+  },
+  "data": {
+    "barang": [
+      {
+        "id": "cmh680szd0000ro1l6sxtjpb6",
+        "no": 1,
+        "namaBarang": "Spring",
+        "kod": "13456",
+        "harga": 12,
+        "bilangan": 1,
+        "jumlah": 12,
+        "lori": "ST 9483 P",
+        "kedai": "SUN",
+        "bayaran": "TUNAI",
+        "tentang": null,
+        "gambar": "[\"blob:https://preview-chat-aefcef92-44cd-4db8-bdbf-b2288bbcb5f1.space.z.ai/1390ee1e-06bd-47a5-9898-96448523bbe0\",\"blob:https://preview-chat-aefcef92-44cd-4db8-bdbf-b2288bbcb5f1.space.z.ai/f9f06f6e-36b5-4ade-b0fc-f4a6b29daddb\"]",
+        "createdAt": "2025-10-25T11:53:01.370Z",
+        "updatedAt": "2025-10-25T12:10:55.263Z"
+      }
+    ],
+    "barangMasuk": [
+      {
+        "id": "cmh681x1m0001ro1lmvus33xt",
+        "no": 1,
+        "tarikhMasuk": "2025-10-25T00:00:00.000Z",
+        "namaBarang": "Spring",
+        "lori": "ST 9483 P",
+        "namaPengguna": "LORI KECIL",
+        "barangId": "cmh680szd0000ro1l6sxtjpb6",
+        "createdAt": "2025-10-25T11:53:53.291Z",
+        "updatedAt": "2025-10-25T11:53:53.291Z"
+      }
+    ],
+    "barangKeluar": [
+      {
+        "id": "cmh6829sd0002ro1lig2tffws",
+        "no": 1,
+        "tarikhKeluar": "2025-10-25T00:00:00.000Z",
+        "namaBarang": "Spring",
+        "lori": "ST 9483 P",
+        "namaPengguna": "LORI KECIL",
+        "barangMasukId": "cmh681x1m0001ro1lmvus33xt",
+        "createdAt": "2025-10-25T11:54:09.805Z",
+        "updatedAt": "2025-10-25T11:54:09.805Z"
+      }
+    ],
+    "kedai": [
+      {
+        "id": "cmh682u5v0003ro1lp0wyqhuc",
+        "namaKedai": "SUN",
+        "namaPemilik": "Sun",
+        "tempat": "BT3",
+        "nomborTelefon": "1234567890",
+        "nomborOffice": null,
+        "bayaran": "HUTANG",
+        "createdAt": "2025-10-25T11:54:36.211Z",
+        "updatedAt": "2025-10-25T11:54:36.211Z"
+      }
+    ]
+  }
+}
